@@ -1,16 +1,19 @@
 if (Persons.find().count() === 0) {
   Persons.insert({
-    title: 'Introducing Telescope',
-    url: 'http://sachagreif.com/introducing-telescope/'
+    title: 'Tran Duc Vu ',
+    facebook: 'https://www.facebook.com/tranducvu',
+    name: 'David'
   });
 
   Persons.insert({
-    title: 'Meteor',
-    url: 'http://meteor.com'
+    title: 'Nguyen Son Tung ',
+    facebook: 'https://www.facebook.com/stefanhip.1?fref=ts',
+    name: 'Stefan'
   });
 
   Persons.insert({
-    title: 'The Meteor Book',
-    url: 'http://themeteorbook.com'
+    title: 'Dong Xuan Thuy ',
+    facebook: 'https://www.facebook.com/Thuy.DongXuan?fref=ts',
+    name: 'Nick'
   });
 }
