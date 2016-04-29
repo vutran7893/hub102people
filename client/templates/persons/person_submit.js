@@ -4,7 +4,6 @@ Template.postSubmit.events({
 
     var post = {
       url: $(e.target).find('[name=url]').val(),
-      title: $(e.target).find('[name=title]').val(),
       viname: $(e.target).find('[name=viname]').val(),
       engname: $(e.target).find('[name=engname]').val(),
       email: $(e.target).find('[name=email]').val(),
