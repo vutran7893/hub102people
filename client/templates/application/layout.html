@@ -1,12 +1,14 @@
 <template name="layout">
   <div class="container">
-    <header class="navbar navbar-default" role="navigation"> 
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/">Hub102 people hi hi</a>
-      </div>
-    </header>
+    {{> header}}
     <div id="main">
       {{> yield}}
     </div>
+    <div
+	  class="fb-like"
+	  data-share="true"
+	  data-width="450"
+	  data-show-faces="true">
+	</div>
   </div>
 </template>

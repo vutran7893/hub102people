@@ -1,3 +1,5 @@
 Template.personsList.helpers({
-  persons: Persons.find()
+  persons: function() {
+    return Persons.find({}, {sort: {submitted: -1}});
+  }
 });
