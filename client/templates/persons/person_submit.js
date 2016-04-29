@@ -8,7 +8,7 @@ Template.postSubmit.events({
       viname: $(e.target).find('[name=viname]').val(),
       engname: $(e.target).find('[name=engname]').val(),
       email: $(e.target).find('[name=email]').val(),
-      phone: $(e.target).find('[name=phone]').val(),
+      phone: $(e.target).find('[name=phone]').val()
 
     };
 
